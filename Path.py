@@ -1,0 +1,5 @@
+CHROME_DRIVER_PATH = "chromedriver.exe"
+DATA_DIR = "Data"
+LINKEDIN_JOBS_DATA_PATH = "Data/linked_in.json"
+LINKEDIN_PARSED_JOBS_DATA_PATH = "Data/linked_in_parsed.json"
+PROGRAMMING_LANGUAGES_PATH = "Data/programming_languages.json"
