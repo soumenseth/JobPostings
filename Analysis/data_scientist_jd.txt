@@ -1,0 +1,53 @@
+Summary
+Posted: 21 Mar 2022
+
+Role Number:200355378
+
+At Apple, extraordinary ideas have a way of becoming excellent products, services, and customer experiences very quickly. Bring passion and dedication to your job and there's no telling what you could accomplish. Would you like to work in a fast-paced environment where your technical abilities will be challenged on a day-to-day basis? If so, Apple's Global Business Intelligence (GBI) team is seeking an experienced Software Engineer to build high quality, scalable and resilient distributed systems that power Apple's analytics platforms and data pipelines. Apple's Enterprise Data Warehouse landscape caters to a wide variety of real-time, near real-time and batch analytical solutions. These solutions are an integral part of business functions like Sales, Operations, Finance, AppleCare, Marketing and Internet Services, enabling business drivers to make critical decisions. If you are looking to solve Analytical problems at scale, both on prem or in cloud, focusing on ease of use, ease of maintenance and most importantly implement solutions that are scalable, you will have fun in GBI!
+
+If you enjoy learning new technologies, solving challenges with little mentorship, and are comfortable proposing and implementing solutions, demonstrating Engineering standard methodologies, you will find it rewarding to work in GBI! The ideal candidate for this position will be able to think outside of the box and should have passion for building engineering solutions to enable business in making time sensitive and critical decisions.
+
+The Global Business Intelligence team, responsible for reporting and ML in the Sales & Finance Space, with applications used by more than 5000 internal employees is looking for an enthusiastic Data Scientist. Data Science, Machine Learning, Coding and Data Preparation will be the core of you at work, and you will have the opportunity to:
+
+Design data science solutions to solve business challenges.
+Be part of a large team, working on research and projects delivery.
+Apply statistical thinking and machine learning methods.
+Communicate complex concepts in intelligible ways.
+Manage time and priorities in an exciting and changing environment.
+
+We build amazing experiences and create depth in knowledge for our internal users and our leadership.
+
+Our team is a friendly bunch of people that helps each other grow and have a passion for technology, R&D, modern tools and Data Science.
+
+Key Qualifications
+
+Key Qualifications
+• Upwards of 8 year experience in Data Science and Machine Learning.
+• Hands on Programming experience and proved competency in Python or R coding.
+• Solid knowledge of statistical concepts and methods (eg: Multivariate analysis, regression modelling, time series forecasting).
+• Good degree of knowledge about unstructured data analysis methodologies (NLP, NLG)
+• Previous experience applying Deep Learning methods.
+• Experience with model delivery performance preferred.
+• Strong business understanding of Sales including Consumer and Enterprise markets. Knowledge in Supply Chain, Fulfilments, Operations and Finance areas is a plus.
+• Strong analytical and interpersonal skills
+• Self-starter, highly motivated and ability to learn quickly
+
+Description
+
+Description
+Our work relies on deeply understanding the company needs in areas such as Sales, Finance, Inventory, Operations, etc. and finding data science-based solutions that can improve our clients and employees’ experiences and work
+
+We are looking for a motivated individual, with good communicational skills, high energy, whose experience can add value to our data science teams, support it and bring new angles to problem solving
+
+You should be able to (i) understand a business challenge, (ii) design a statistical or deep learning solution to find the needed answer to it, (iii) developing it by yourself or guide another person to do it, (iv) deliver the outcome into production, (v) Keep a good governance of your work.
+
+If you have a passion for Data Science, Teamwork and critical thinking, this might just be the job for you.
+
+Education & Experience
+
+Education & Experience
+Degree in Computer Science, Statistics, Mathematics, Engineering or other related disciplines. Other and equivalent backgrounds may be considered
+
+Additional Requirements
+
+Additional Requirements

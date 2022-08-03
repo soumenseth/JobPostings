@@ -50,3 +50,16 @@ def skills():
                            langs_tables=[df_langs.to_html()],
                            langs_titles=df_langs.columns.tolist())
 
+@app.route('/degrees')
+def degrees():
+    jobs = read_json(LINKEDIN_PARSED_JOBS_DATA_PATH)
+    degrees_position = sum([jb["degrees"] for jb in jobs], [])
+
+    degrees_counter = Counter(degrees_position)
+    df_degrees = pd.DataFrame.from_dict(degrees_counter, orient='index').reset_index().sort_values(by=0, ascending=False)
+    df_degrees.rename(columns={'index': 'Degree', 0: 'Jobs count'}, inplace=True)
+    df_degrees.reset_index(drop=True, inplace=True)
+
+    return render_template('job-degrees.html',
+                           degree_tables=[df_degrees.to_html()],
+                           degree_titles=df_degrees.columns.tolist())

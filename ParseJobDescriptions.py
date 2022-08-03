@@ -1,5 +1,6 @@
 from Utils import *
 from Services.skills import SkillsExtractor
+from Services.degrees import DegreeExtractor
 from spacy.lang.en import English
 
 
@@ -8,6 +9,7 @@ class ParseJobDescriptions:
         self.jd = job_description
         self.nlp = English()
         self.skill_extractor = SkillsExtractor(self.nlp)
+        self.degree_extractor = DegreeExtractor()
 
     def parse_jd(self):
         job_sections = get_text_paragraphs(self.jd)
@@ -15,13 +17,15 @@ class ParseJobDescriptions:
         company = job_sections[1]
         location = job_sections[2]
         skills = self.get_skills()
+        degrees = self.get_degrees()
 
         job_dict = {
             "job_position": job_position,
             "company": company,
             "location": location,
             "job_sections": job_sections,
-            "skills": skills
+            "skills": skills,
+            "degrees": degrees
         }
         return job_dict
 
@@ -42,3 +46,8 @@ class ParseJobDescriptions:
             skills.append(skill_dict)
         skills = list(set([sk['displayName'] for sk in skills]))
         return skills
+
+    def get_degrees(self):
+        degrees = self.degree_extractor.extract_degree(self.jd)
+        degrees = [d['text'] for d in degrees]
+        return degrees
